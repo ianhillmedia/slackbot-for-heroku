@@ -4,7 +4,7 @@ from slackclient import SlackClient
 
 
 # starterbot's ID as an environment variable
-BOT_ID = "U331FSLJZ"
+BOT_ID = ""
 
 # constants
 AT_BOT = "<@" + BOT_ID + ">"
