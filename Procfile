@@ -1,1 +1,0 @@
-worker: python tegnabot.py
