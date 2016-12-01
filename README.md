@@ -47,7 +47,7 @@ OTHER USEFUL INFO:
 
 DON'T update your bot's code in a .txt file. Formatting issues can occur. Instead, download Python from https://www.python.org/downloads/ and use IDLE.
 
-The bot commands are in run.py. Just update the text in quotes that you see in pairs["help"] = "YOUR INSTRUCTIONS HERE". Copy that line and add new commands and responses! to customize your bot!
+The bot commands are in run.py. Just update the text in quotes that you see in pairs["help"] = "YOUR INSTRUCTIONS HERE". Copy that line and add new commands and responses to customize your bot!
 
 Want to update your Slackbot's code on Heroku? In your command line, type the following, hitting enter after every command:
 heroku login (you will be prompted to enter your heroku credentials)
