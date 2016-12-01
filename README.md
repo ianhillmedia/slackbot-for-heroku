@@ -1,4 +1,4 @@
-# slackbot
+# slackbot for heroku
 A basic Slackbot in Python that can be deployed and run continuously on Heroku. The Slackbot searches for and responds to keywords. Code from and all praise and thanks to Buzzfeed Open Labs: https://github.com/buzzfeed-openlab/simple-slack-bot. I re-created it here so I could add more specific instructions on how to deploy it based on my experience as a novice who does not know Python. Read: Anybody can do this!
 
 Questions or want to ask me about my experiences deploying this? Ping me at @ianhillmedia on Twitter.
