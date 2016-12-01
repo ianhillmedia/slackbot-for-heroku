@@ -68,5 +68,5 @@ Do a CTRL + F or a CMND + F and search for the user's username.
 When you find your user, look for their Slack User ID. It will start with @U, it looks like @U1A2B3C4G5. Copy the User ID.
 
 Open run.py in IDLE. Add their User ID to your response in carats. The final code will look something like:
-pairs["hello"] = "Thanks for your request! If <@U1A2B3C4G5> is working, he will reply and say hi!"
+pairs["hello"] = "Thanks for your request! If <<@U1A2B3C4G5>> is working, he will reply and say hi!"
 
