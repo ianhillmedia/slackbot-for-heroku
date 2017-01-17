@@ -51,7 +51,7 @@ The bot commands are in run.py. Just update the text in quotes that you see in p
 
 Want to update your Slackbot's code on Heroku? In your command line, type the following, hitting enter after every command:
 
-`heroku login (you will be prompted to enter your heroku credentials)
+`heroku login (you will be prompted to enter your heroku credentials)`
 
 cd ~/YOURSLACKBOTDIRECTORY/
 
@@ -61,7 +61,7 @@ git commit -m “COMMENT WITH YOUR CHANGE”
 
 git push heroku master
 
-heroku ps:scale worker=1`
+heroku ps:scale worker=1
 
 Want your bot to mention a specific user in a response?
 
