@@ -35,7 +35,9 @@ Go back to your Heroku dashboard. Click the Deploy tab.
 
 Scroll to the Deploy Using Heroku Git tab. Follow the instructions for typing commands in your command line to deploy your bot. NOTE: Your command line will already be in your Slackbot Directory, so you can skip the Heroku deploy command that starts with cd.
 
-In your command line, type heroku ps:scale worker=1
+In your command line, type:
+
+`heroku ps:scale worker=1`
 
 Click Enter.
 
