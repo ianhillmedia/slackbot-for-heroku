@@ -25,9 +25,13 @@ Add a new variable. In the KEY field, type API_TOKEN. In the value field, paste 
 
 Now we're going to leave Heroku. In a Mac, open Terminal; in Windows, open a Command Line (http://www.computerhope.com/issues/chusedos.htm)
 
-Chnage your command to the Slackbot Directory (folder) on your desktop by typing cd ~/DIRECTORY LOCATION/ and clicking enter. Example: cd ~/Desktop/SLACKBOT/
+Chnage your command to the Slackbot Directory (folder) on your desktop by typing:
 
-Copy the API Token from your bot. In your command line, type echo "API_TOKEN = YOURAPITOKEN" > .env 
+`cd ~/DIRECTORY LOCATION/` and clicking enter. Example: `cd ~/Desktop/SLACKBOT/`
+
+Copy the API Token from your bot. In your command line, type:
+
+`echo "API_TOKEN = YOURAPITOKEN" > .env`
 
 Hit enter. Nothing should happen in your command line, and you probably won't see a new file in your Slackbot Directory. That's OK!
 
