@@ -33,7 +33,7 @@ Hit enter. Nothing should happen in your command line, and you probably won't se
 
 Go back to your Heroku dashboard. Click the Deploy tab.
 
-Scroll to the Deploy Using Heroku Git tab. Follow the instructions for typing commands in your command line to deploy your bot. NOTE: Your command line will already be in your Slackbot Directory, so you can skip the Heroku deploy comman that starts with cd.
+Scroll to the Deploy Using Heroku Git tab. Follow the instructions for typing commands in your command line to deploy your bot. NOTE: Your command line will already be in your Slackbot Directory, so you can skip the Heroku deploy command that starts with cd.
 
 In your command line, type heroku ps:scale worker=1
 
@@ -50,12 +50,18 @@ DON'T update your bot's code in a .txt file. Formatting issues can occur. Instea
 The bot commands are in run.py. Just update the text in quotes that you see in pairs["help"] = "YOUR INSTRUCTIONS HERE". Copy that line and add new commands and responses to customize your bot!
 
 Want to update your Slackbot's code on Heroku? In your command line, type the following, hitting enter after every command:
-heroku login (you will be prompted to enter your heroku credentials)
+
+`heroku login (you will be prompted to enter your heroku credentials)
+
 cd ~/YOURSLACKBOTDIRECTORY/
+
 git add .
+
 git commit -m “COMMENT WITH YOUR CHANGE”
+
 git push heroku master
-heroku ps:scale worker=1
+
+heroku ps:scale worker=1`
 
 Want your bot to mention a specific user in a response?
 
